@@ -1,0 +1,314 @@
+@font-face{
+  font-family: "OpenSans";
+  src: url('fonts/OpenSans-Regular.ttf');
+}
+@font-face{
+  font-family: "OpenSans-Bold";
+  src: url('fonts/OpenSans-Bold.ttf');
+}
+@font-face{
+  font-family: "OpenSans-Semibold";
+  src: url('fonts/OpenSans-Semibold.ttf');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head-container{
+  background-color: #DD5555;
+  width: 1400px;
+  display: flex;
+  justify-content: flex-left;
+  padding: 0; 
+}
+.head{
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 19px;
+  text-align: left;
+  font-family: "OpenSans";
+  padding: 12px;
+  margin-left: 130px;
+
+}
+.propos{
+  font-size: 19px;
+  margin-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 17px;
+  font-family: "OpenSans";
+}
+div#avatar{
+  background-image: url(image/fond.png);
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 658px;
+  padding: 0;
+}
+.body-container{
+  display: flex;
+  flex-direction: column;
+  flex-align: center;
+  padding: 0;
+  
+}
+.corps{
+  padding-top: 220px;
+  font-size: 48px;
+  font-family: "OpenSans-Bold";
+  align-self: center;
+  color: #FFFFFF;
+
+}
+.corps2{
+  padding-top: 10.5px;
+  font-size: 24px;
+  font-family: "OpenSans";
+  align-self: center;
+  color: #FFFFFF;
+  height: 33px;
+}
+#trait{
+  border-bottom: 2px solid #FFFFFF;
+  width: 390px;
+  align-self: center;
+  padding-top: 23px;
+}
+.body2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 505px;
+  padding-right: 505px;
+  padding-top: 24px;
+} 
+.like{
+  border: 1px solid #FFFFFF;
+  width: 112px;
+  height: 46px;
+  border-radius: 10px;
+  text-align: center;
+  self-align: center;
+  padding-top: 12px;
+  font-size: 18px;
+  vertical-align: baseline;
+  font-family: "OpenSans";
+}
+.love{
+  border: 1px solid #FFFFFF;
+  width: 112px;
+  height: 46px;
+  border-radius: 10px;
+  self-align: center;
+  padding-top: 12px;
+  padding-left: 10px;
+  font-size: 18px;
+  vertical-align: baseline;
+  font-family: "OpenSans";
+}
+.buy{
+  border: 1px solid #FFFFFF;
+  width: 112px;
+  height: 46px; 
+  self-align: center;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 18px;
+  vertical-align: baseline;
+  font-family: "OpenSans";
+}
+.titre{
+  text-align: center;
+  font-size: 36px;
+  padding-top: 55px;
+  width: 1400px;
+  font-family: "OpenSans-Semibold";
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-top: 55px;
+  width: 1400px;
+}
+.couteau{
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background: #DD5555;
+}
+.index{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-left: 200px;
+  padding-right: 200px;
+  width: 1400px;
+}
+.sous-titre{
+  font-size: 28px;
+  font-family: "OpenSans-Semibold";
+}
+.phrase{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 8px;
+  padding-left: 200px;
+  padding-right: 200px;
+  width: 1400px;
+}
+.lorem{
+  font-size: 12px;
+  font-family: "OpenSans";
+  width: 358px;
+  text-align: center;
+}
+div#troopers{
+  background-image: url(image/troopers.png);
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 240px;
+  margin-top: 47px;
+}
+.super{
+  font-size: 48px;
+  self-content: center;
+  font-family: "OpenSans-Bold";
+  color: #FFFFFF;
+  padding-top: 82px;
+  padding-left: 230px;
+}
+.portrait{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1400px;
+}
+#tex{
+  background-image: url(image/mec2.png);
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 240px;
+  margin-top: 64px;
+  border-radius: 120px;
+  text-align: center;
+  font-size: 28px;
+  font-family: "OpenSans-Semibold";
+}
+#marge{
+  background-image: url(image/meuf.png);
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 240px;
+  margin-top: 64px;
+  border-radius: 120px;
+  text-align: center;
+  font-size: 28px;
+  font-family: "OpenSans-Semibold";
+}
+#isaac{
+  background-image: url(image/mec1.png);
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 240px;
+  margin-top: 64px;
+  border-radius: 120px;
+  text-align: center;
+  font-size: 28px;
+  font-family: "OpenSans-Semibold";
+}
+#ash{
+  background-image: url(image/mec3.png);
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 240px;
+  margin-top: 64px;
+  border-radius: 120px;
+  text-align: center;
+  font-size: 28px;
+  font-family: "OpenSans-Semibold";
+}
+.ecrire{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1400px;
+}
+.mail{
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background: #DD5555;
+  margin-top: 86px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "OpenSans";
+  color: #FFFFFF;
+  vertical-align: baseline;
+}
+#comment{
+  background: #DD5555;
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 475px;
+  margin-top: 63px;
+}
+.envoyer{
+  font-size: 36px;
+  text-align: center;
+  font-family: "OpenSans-Semibold";
+  color: #FFFFFF;
+  padding-top: 50px;
+}
+.colonne{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nom{
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: #FFFFFF;
+  margin-right: 312px;
+  margin-top: 32px;
+}
+.ici{
+  width: 360px;
+  height: 32px;
+  background: #FFFFFF;
+  align-self: center;
+  margin-right: 32px;
+}
+.nom2{
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: #FFFFFF;
+  margin-left: 312px;
+  margin-top: 20px;
+}
+.colonne2{
+  width: 750px;
+  height: 112px;
+  background: #FFFFFF;
+  align-self: center;
+  margin-right: 32px;
+}
+.avion{
+  width: 123px;
+  height: 46px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  margin-left: 935px;
+  margin-top: 15px;
+  text-align: center;
+  vertical-align: baseline;
+  font-family: "OpenSans";
+  font-size: 18px;
+}
+  
